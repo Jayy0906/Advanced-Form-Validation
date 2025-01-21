@@ -7,7 +7,8 @@ body {
   .container {
     max-width: 600px;
     margin: auto;
-    background-color: #fff;
+    color: #fff;
+    background-color: #fe3f64;
     padding: 30px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -28,9 +29,14 @@ body {
     font-size: 14px;
     text-align: center;
   }
+
+  .btn{
+    background-color: #fff;
+    color: black;
+  }
   
   .btn:hover {
-    background-color: #007bff;
+    background-color: #ff90ad;
   }
   
   @media (max-width: 576px) {
